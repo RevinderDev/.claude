@@ -7,6 +7,6 @@
   "theme": "dark-ansi",
   "statusLine": {
     "type": "command",
-    "command": "bash ~/.claude/statusline-command.sh"
+    "command": "pwsh -NoProfile -File \"$HOME/.claude/statusline-command.ps1\""
   }
 }
